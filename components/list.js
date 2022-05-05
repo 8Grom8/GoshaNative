@@ -15,8 +15,9 @@ const styles = StyleSheet.create({
       textAlign: 'center',
       borderRadius: 5,
       borderWidth: 1,
-      margiTop: 20,
+      marginTop: 20,
       width: "60%",
       marginLeft: "20%",
+      borderColor: "grey",
     }
 });

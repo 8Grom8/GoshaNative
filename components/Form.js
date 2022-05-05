@@ -1,10 +1,10 @@
-import React, { useState }from 'react';
-import { StyleSheet, Text, TextInput, Button, View } from 'react-native';
+import React, { useState } from 'react';
+import { StyleSheet, TextInput, Button, View } from 'react-native';
 
 export default function Form({addHandler}) {
 
-    const [text, value] = useState("");
-    const onChange = (text) => {value(text)};
+    const [text, setValue] = useState("");
+    const onChange = (text) => {setValue(text)};
 
   return (
     <View>
@@ -17,7 +17,7 @@ export default function Form({addHandler}) {
 const styles = StyleSheet.create({
     input:{
         borderBottomWidth: 1,
-        borderColor: "#fff",
+        borderColor: "grey",
         padding: 15,
         marginVertical: 25,
         marginHorizontal: "25%",
